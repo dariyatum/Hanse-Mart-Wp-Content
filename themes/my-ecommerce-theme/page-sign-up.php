@@ -17,7 +17,7 @@
       <label>Password :</label>
       <input type="password" />
 
-      <button class="primary-btn">Sign up</button>
+      <button class="primary-btn"><a class="primary-btn" href="<?php echo site_url('/customer-account'); ?>">Sign up</a></button>
     </form>
 
     <p class="login-text">

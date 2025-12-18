@@ -29,7 +29,7 @@
 
 </section>
   <section class="see-all">
-    <a href="" class ="see-all-btn">See all</a>
+    <a class="see-all-btn" href="<?php echo site_url('/categories'); ?>">See all</a>
     </section>
 
 <!-- SALE -->
