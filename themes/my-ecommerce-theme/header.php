@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head><?php wp_head(); ?>
-    <link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() );?>">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/nav2.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/nav.css">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/header-back.css">
     <link rel="stylesheet" href="wp-content/themes/my-ecommerce-theme/components/nav2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="wp-content/themes/my-ecommerce-theme/components/nav.css">
-    <link rel="stylesheet" href="wp-content/themes/my-ecommerce-theme/components/header-back.css">
 
 </head>
 <body <?php body_class(); ?>>
+  
 <header>
 <div class="nav__brand"><img src="https://i.ibb.co/Pz6KNytN/nav-brand.png" alt=""></div>
 <?php wp_nav_menu(['theme_location'=>'primary']); ?>
@@ -20,16 +21,18 @@
   </div>
 
   <div class="header-right">
+    <p class="signup-btn"><a class="a-of" href="<?php echo site_url('/sign-up'); ?>">sign up
+</a></p>
     <div class="language">
       <span>EN</span>
       <i class="fa-solid fa-globe icon"></i>
     </div>
 
     <div class="avatar">
-      <img src="https://i.pravatar.cc/40" alt="User">
+      <a class="a-of" href="<?php echo site_url('/customer-account'); ?>">
+<img src="https://i.pravatar.cc/40" alt="User"></a>
     </div>
   </div>
 </nav>
-<a href="javascript:history.back()" class="back-btn">&larr; Back</a>
+
 <main>
-Bos nh

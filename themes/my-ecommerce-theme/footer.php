@@ -1,5 +1,5 @@
 <head>
-        <link rel="stylesheet" href="wp-content/themes/my-ecommerce-theme/components/footer.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/components/footer.css">
 
 </head>
 </main>

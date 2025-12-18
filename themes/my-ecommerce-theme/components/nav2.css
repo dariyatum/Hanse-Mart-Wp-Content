@@ -63,3 +63,18 @@ nav {
   border: 3px solid var(--green-btn);
   object-fit: cover;
 }
+.avatar a{
+  text-decoration: none;
+
+}
+.signup-btn{
+  text-decoration: none;
+  background-color: var(--main); 
+  color: white;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.signup-btn a{
+  text-decoration: none;
+    color: white;
+}

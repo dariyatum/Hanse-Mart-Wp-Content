@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: var(--surface);
+}
+:root{
+    --surface:#FCFBFC;
+    --btn:#000;
+    --green-btn:#8AAE27;
+    --main:#8AAE27;
+    --black-txt:#000;
+    --white:#fff;
+    --title:#000;
+    --green-txt:#8AAE27;
+    --border:0.2px solid grey;
+    --card-bg:#fff;
+}
+.btn{
+  background-color: var(--main);
+  padding: 1px 2px;
+}
+.a-of{
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  margin: 30px 0 0 0;
+}
+
+/* see all */
+
+.see-all{
+    color: var(--green-txt);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+.see-all-btn{
+    color: var(--green-txt);
+}
+
+
+.hero_image{
+    width: 100%;
+    position: relative;
+    
+}
+.hero {
+    background-image: url('https://assets.upstox.com/content/assets/images/news/qcommercethumb.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  padding: 80px 40px;
+  color: var(--white);
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(255, 255, 255, 0.673);
+  border: 1px solid white;
+  border-radius: 25px;
+}
+/* CATEGORIES */
+.categories {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 30px;
+  justify-content: center;
+ 
+}
+
+.category {
+  text-align: center;
+  font-size: 18px;
+   border: 0.2px solid rgba(128, 128, 128, 0.671);
+   background-color: var(--white);
+   padding: 50px 30px;
+   margin: 0 10px 0 10px;
+   padding: 100px 0px;
+   
+}
+
+.category i{
+  font-size: 50px;
+}
+.category span {
+  display: block;
+  margin-top: 8px;
+}
+/* SALE */
+.sale {
+  background: #8bc34a;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.sale.green {
+  justify-content: center;
+}
+
+/* PRODUCTS */
+.products {
+  padding: 40px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+.product-card img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #7cb518;
+  color: #fff;
+  padding: 5px;
+  font-size: 12px;
+}
+
+.product-card button {
+  margin-top: 10px;
+  padding: 8px;
+  background: #7cb518;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* BANNER */
+.banner {
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+.banner img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* COMBO */
+.combo img {
+  width: 100%;
+  margin: 40px 0;
+}
+
+/* REVIEWS */
+.reviews {
+  padding: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+
+.banner-container{
+  width: 100%;
+  padding: 0 40px;
+}
+/* PROMO */
+.promo {
+    background: #8bb02b;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.promo h2 {
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.product-grid-center{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    color: #000;
+    width: 260px;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.reviews{
+  display: flex;
+  justify-content: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 15px 0 5px;
+}
+
+.price {
+    color: #8bb02b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card button {
+    background: #000;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+/* SEE ALL */
+.see-all {
+    text-align: center;
+    color: #8bb02b;
+    text-decoration: underline;
+    margin: 20px 0 40px;
+}
+
+/* REVIEWS */
+
+.write-review {
+    text-align: center;
+    color: #8bb02b;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    background-color: transparent;
+}
+
+.review-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+/* LEFT */
+.rating {
+    width: 40%;
+}
+
+.stars {
+    color: gold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bar span {
+    width: 20px;
+}
+
+.progress {
+    background: #ddd;
+    height: 14px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.fill {
+    height: 100%;
+    background: gold;
+}
+
+.w80 { width: 80%; }
+.w40 { width: 40%; }
+.w20 { width: 20%; }
+.w10 { width: 10%; }
+.w15 { width: 15%; }
+
+/* RIGHT */
+.review-images {
+    width: 60%;
+}
+
+.review-images h4 {
+    margin-bottom: 15px;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+}
+
+.images img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+}

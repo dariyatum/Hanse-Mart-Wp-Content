@@ -1,0 +1,40 @@
+
+
+
+.error-container {
+  text-align: center;
+}
+
+.error-container img {
+  max-width: 280px;
+  margin-bottom: 40px;
+}
+
+.retry-btn {
+  background: #47ff2f;
+  color: #ffffff;
+  border: none;
+  padding: 14px 60px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.retry-btn:hover {
+  background: #3ad226;
+  transform: scale(1.05);
+}
+.error-container span{
+    margin: 30px;
+}
+.span--{
+    margin: 30px;
+}
+.error-container h1{
+    margin-bottom: 20px;
+}
+.retry-btn{
+    margin-top: 20px;
+}

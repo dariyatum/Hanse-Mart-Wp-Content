@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+}
+
+/* GRID */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+/* CARD */
+.card {
+  position: relative;
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+  overflow: hidden;
+  min-height: 220px;
+}
+
+.card h2 {
+  font-size: 28px;
+  font-weight: 800;
+  z-index: 2;
+  position: relative;
+}
+
+.card img {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  max-width: 70%;
+}
+
+/* COLORS */
+.green { background: #74c27c; color: #f7ff00; }
+.pink { background: #f1c6d6; }
+.yellow { background: #ffe75c; }
+.cream { background: #f6e0b5; }
+.purple { background: #d86ac2; }
+.brown { background: #4b2c1f; color: #a9c64a; }
+
+.wide {
+  grid-column: span 2;
+}
+
+/* BANNER */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b7f48b;
+  height: 160px;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.banner h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.badge {
+  position: absolute;
+  left: 40px;
+  background: red;
+  color: #fff;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+/* PROMO */
+.bottom {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.promo {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.promo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* HOVER */
+a:hover {
+  transform: scale(1.02);
+  transition: 0.3s ease;
+}

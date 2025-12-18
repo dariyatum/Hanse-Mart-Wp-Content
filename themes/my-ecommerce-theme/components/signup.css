@@ -1,0 +1,112 @@
+
+/* CONTAINER */
+.signup-container {
+  width: 520px;
+  text-align: center;
+  margin: auto;
+}
+
+/* TITLE */
+.signup-container h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+/* FORM */
+.signup-form {
+  text-align: left;
+}
+
+.signup-form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.signup-form input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #777;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  outline: none;
+}
+
+.signup-form input:focus {
+  border-color: #000;
+}
+
+/* BUTTONS */
+.primary-btn {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.login-text {
+  margin: 30px 0;
+  font-size: 15px;
+}
+
+.login-text a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* DIVIDER */
+.divider {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 30px 0;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #777;
+}
+
+.divider p {
+  font-size: 14px;
+}
+
+/* GOOGLE */
+.google-btn {
+  width: 100%;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  font-size: 18px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  cursor: pointer;
+}
+
+.google-icon {
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main{
+  margin-bottom: 20px;
+}

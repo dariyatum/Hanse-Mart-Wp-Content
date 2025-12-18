@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+.product-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding: 40px;
+}
+
+/* GALLERY */
+.main-image {
+  background: #f6ede3;
+  border-radius: 24px;
+  padding: 40px;
+}
+.add-to-cart a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-image img {
+  width: 100%;
+}
+
+.thumbnails {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.thumb {
+  width: 80px;
+  height: 80px;
+  background: #f3f4f6;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.thumb.active {
+  border: 2px solid #1f5a3a;
+}
+
+.thumb img {
+  height: 60px;
+}
+
+.nav-btn {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* DETAILS */
+.details h1 {
+  font-size: 34px;
+  line-height: 1.3;
+  margin-bottom: 12px;
+}
+
+.rating {
+  color: #f5a623;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.rating span {
+  color: #333;
+  margin-left: 10px;
+}
+
+.divider {
+  margin: 0 8px;
+}
+
+.price {
+  font-size: 32px;
+  color: #3bb54a;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.description {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 24px 0;
+}
+
+/* OPTIONS */
+.option h3 {
+  margin-bottom: 12px;
+}
+
+.flavours {
+  display: flex;
+  gap: 14px;
+}
+
+.flavour {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  background: #f3f4f6;
+  border: 1px solid #ccc;
+}
+
+.flavour.selected {
+  border: 2px solid #1f5a3a;
+}
+
+/* ACTION ROW */
+.action-row {
+  display: flex;
+  gap: 14px;
+  margin: 28px 0;
+}
+
+.size {
+  padding: 12px 16px;
+  border-radius: 24px;
+  border: none;
+  background: #f3f4f6;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #f3f4f6;
+  border-radius: 24px;
+  padding: 10px 16px;
+}
+
+.quantity button {
+  border: none;
+  background: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  flex: 1;
+  background: #8fb52a;
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* META */
+.meta {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+.guarantee {
+  color: #1f5a3a;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  background: #f3f4f6;
+  border-radius: 999px;
+  padding: 6px;
+  gap: 6px;
+  margin-bottom: 30px;
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  border-radius: 999px;
+  border: none;
+  background: transparent;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #fff;
+}
+
+/* ACCORDION */
+.accordion-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+.how-to {
+  padding: 16px 20px;
+  color: #555;
+}
+
+.how-to li {
+  margin-bottom: 8px;
+}
+
+/* REVIEWS */
+.reviews h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.review-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  background: #fff;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.user {
+  display: flex;
+  gap: 12px;
+}
+
+.user img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.user h4 {
+  font-size: 16px;
+}
+
+.user span {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.rating {
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+.review-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #374151;
+}
+
+/* FAQ */
+.faq {
+  max-width: 900px;
+  margin: 80px auto 0;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.faq-item {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 22px 0;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.toggle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: none;
+  background: #1f5a3a;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.faq-answer {
+  margin-top: 16px;
+  font-size: 15px;
+  color: #4b5563;
+  line-height: 1.6;
+}
+
+.faq-item:not(.open) .faq-answer {
+  display: none;
+}
+
+.faq-item:not(.open) .toggle {
+  background: #fff;
+  color: #1f2937;
+  border: 1px solid #d1d5db;
+}
