@@ -8,7 +8,7 @@
 <section class="grid">
 
   <!-- ROW 1 -->
-  <a href="#" class="card green">
+ <a class="card green" href="<?php echo site_url('/product'); ?>">
     <h2>FRESH<br>&<br>FROZEN</h2>
     <img src="images/meat.png" alt="">
   </a>

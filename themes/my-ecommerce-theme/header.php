@@ -16,8 +16,9 @@
 </header>
 <nav class="header">
   <div class="header-left">
-    <i class="fa-solid fa-cart-shopping icon"></i>
-    <i class="fa-solid fa-moon icon"></i>
+    <a href="<?php echo site_url('/cart-shipping'); ?>"><i class="fa-solid fa-cart-shopping icon"></i>
+    </a>
+<i class="fa-solid fa-moon icon"></i>
   </div>
 
   <div class="header-right">
